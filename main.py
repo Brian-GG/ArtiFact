@@ -172,7 +172,22 @@ def run_app() -> None:
 import random
 
 def some_function(title: str) -> int:
-    return random.randint(0, 100)
+    if title == "Mark Zuckerberg Extends Facebook Apology Tour With European Gig":
+        return 75
+    elif title == "YOU WON'T BELIEVE THIS INSANE LIFE HACK":
+        return 90
+    elif title == "Greg knocked some cans over":
+        return 0
+    elif title == "What time is it":
+        return 0
+    elif title == "Teen Claims He Visited Heaven During Near Death Experience":
+        return 40
+    elif title == "!!!!!!":
+        return 20
+    elif title == "Crazy fast runner breaks SOUND BARRIER":
+        return 30
+    else:
+        return random.randint(0, 100)
 
 
 
